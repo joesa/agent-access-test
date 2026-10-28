@@ -1,0 +1,40 @@
+{
+  "chromiumVersion": "153.0.8010.12",
+  "pageTitle": "GitHub - microsoft/playwright: Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. · GitHub",
+  "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+  "ogDescription": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.  - microsoft/playwright",
+  "releaseWidget": {
+    "populated": false,
+    "sidebarHtml": "<h2 class=\"sectionHeading__4n11uG prc-Heading-Heading-MtWFE\" data-variant=\"small\" data-component=\"Heading\"><span>Releases</span></h2><div class=\"prc-SkeletonText-SkeletonText--DvUT prc-Skeleton-SkeletonBox-e93nW\" style=\"width:100%\" data-text-skeleton-size=\"bodyMedium\" data-component=\"SkeletonText\"></div><div class=\"prc-SkeletonText-SkeletonText--DvUT prc-Skeleton-SkeletonBox-e93nW\" style=\"width:10"
+  },
+  "latestRelease": {
+    "url": "https://github.com/microsoft/playwright/releases/tag/v1.64.1",
+    "tag": "v1.64.1",
+    "pageHeading": "v1.64.1",
+    "api": {
+      "tag_name": "v1.64.1",
+      "name": "v1.64.1",
+      "published_at": "2026-10-14T11:51:33Z",
+      "draft": false,
+      "prerelease": false
+    }
+  },
+  "avatar": {
+    "requestUrl": "https://github.com/joesa.png",
+    "status": 200,
+    "finalUrl": "https://avatars.githubusercontent.com/u/8756545?v=4",
+    "contentType": "image/jpeg",
+    "contentLengthHeader": 34064,
+    "dimensions": {
+      "naturalWidth": 460,
+      "naturalHeight": 460
+    },
+    "bytesFetched": 34064,
+    "screenshotPngBytes": 136694
+  },
+  "repoScreenshotBytes": 2729163,
+  "blockedRequests": {
+    "github.githubassets.com :: net::ERR_TUNNEL_CONNECTION_FAILED": 270
+  },
+  "blockedRequestCount": 270
+}
