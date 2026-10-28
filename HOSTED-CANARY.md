@@ -1,0 +1,1 @@
+Hosted worker canary passed.
