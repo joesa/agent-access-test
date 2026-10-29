@@ -1,0 +1,15 @@
+{
+  "name": "agent-access-test",
+  "version": "1.0.0",
+  "description": "A small command-line tool that counts lines, words and characters in a file.",
+  "type": "module",
+  "bin": {
+    "wordcount": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "private": true
+}
