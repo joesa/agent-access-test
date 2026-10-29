@@ -1,1 +1,0 @@
-export function count(text) { const lines = text.split(n).length; const words = text.trim().split(s+).filter(w => w.length > 0).length; const characters = text.length; return { lines, words, characters }; }
