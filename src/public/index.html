@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Checked by Plumb</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Checked by Plumb</h1>
+      <p class="tagline">
+        Count the lines, words and characters in any text. Counts update as you type.
+      </p>
+
+      <form id="counter">
+        <label for="text">Text</label>
+        <textarea id="text" name="text" rows="12" spellcheck="false"
+          placeholder="Paste or type something&hellip;"></textarea>
+      </form>
+
+      <dl id="results" aria-live="polite">
+        <div>
+          <dt>Lines</dt>
+          <dd id="lines">0</dd>
+        </div>
+        <div>
+          <dt>Words</dt>
+          <dd id="words">0</dd>
+        </div>
+        <div>
+          <dt>Characters</dt>
+          <dd id="characters">0</dd>
+        </div>
+      </dl>
+
+      <p id="status" class="status" role="status"></p>
+    </main>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

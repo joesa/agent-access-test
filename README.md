@@ -1,6 +1,7 @@
-# agent-access-test
+# Checked by Plumb
 
-A small command-line tool that counts the lines, words and characters in a file.
+A small web app and command-line tool that count the lines, words and characters
+in text. Both share the same counting rules (`src/count.js`).
 
 ## Requirements
 
@@ -12,6 +13,22 @@ npm install   # optional: nothing to fetch, but validates package.json
 ```
 
 ## How to Use
+
+Start the web server and open it in a browser:
+
+```sh
+npm start          # http://localhost:3000
+# `npm run dev` does the same thing
+PORT=8080 npm start  # pick another port
+```
+
+Type or paste text into the page and the line, word and character totals update
+as you type. The page is served from `src/public/` and the counts come from
+`POST /api/count`, which answers with JSON such as
+`{"lines":2,"words":2,"characters":12}`. `GET /api/health` reports whether the
+server is up. The server keeps running until you stop it with `Ctrl-C`.
+
+### Command line
 
 Run the CLI directly from a clone of this repository (`src/cli.js` is
 executable and has a `#!/usr/bin/env node` shebang):
@@ -25,7 +42,7 @@ node src/cli.js <file>
 or, through npm:
 
 ```sh
-npm start -- <file>
+npm run cli -- <file>
 ```
 
 To get a `wordcount` command on your `PATH`, link the package once (this writes
